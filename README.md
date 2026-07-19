@@ -4,10 +4,13 @@ Ficha de grupo (**Party Sheet**) para o sistema **Tormenta20** no **FoundryVTT v
 
 ## O que faz
 
-- **Party Sheet** com uma aba de **Membros** (retrato, PV/PM de cada personagem).
-- **Inventário compartilhado** da party (um "estoque" comum): arraste itens para dentro/fora dele e entre membros.
-- **Transferência de itens e dinheiro** entre personagens da mesma party.
-- Botão **enviar dinheiro** no cabeçalho da ficha de personagem (ao lado das moedas), para transferir moedas a outro membro ou ao estoque.
+- **Party Sheet** com duas abas:
+  - **Membros** — retrato, PV/PM, nível e carga (espaços de inventário) de cada personagem.
+  - **Inventário** — o "estoque" compartilhado da party, com os itens e o dinheiro comum.
+- **Inventário compartilhado**: arraste itens para dentro/fora do estoque e entre membros.
+- **Dinheiro da party**: deposite moedas de um personagem no estoque comum, transfira do estoque para um personagem, ou envie moedas direto entre membros.
+- Botão **enviar dinheiro** no cabeçalho da ficha de personagem (ao lado das moedas).
+- **Transferência de itens** entre personagens da mesma party (com quantidade e confirmação opcional).
 - Integração opcional com o **t20-hayd-loja**.
 
 ## Como usar
@@ -21,7 +24,7 @@ Ficha de grupo (**Party Sheet**) para o sistema **Tormenta20** no **FoundryVTT v
 
 - **Abrir a Party Sheet**: pelo botão na pasta da party (ou pela ação de abrir party sheet). Jogadores só veem a party a que pertencem.
 - **Transferir item**: arraste da ficha para o estoque da party, ou solte uma linha do inventário da party sobre a ficha de um personagem.
-- **Enviar dinheiro**: clique no botão de moedas (✈) no topo da ficha e escolha o destinatário e o valor.
+- **Dinheiro**: na aba Inventário, use **Depositar** (de um personagem para o estoque) e **Transferir** (do estoque para um personagem); ou clique no botão de moedas (✈) no topo da ficha para enviar direto a outro membro.
 
 ## Configurações
 
